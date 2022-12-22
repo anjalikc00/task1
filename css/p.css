@@ -137,15 +137,15 @@ background-color:gray;
 .watch{
 height:800px;
 width:40%;
-background-color: yellow;
+background-color:white;
 background-image: url(../resources/mp.jpg);
 background-repeat: no-repeat;
 background-size:100% 100%;
 
 }
 .bottom{
-    height:1000px;
-    width:1000px;
+    height:800px;
+    width:100%;
     background-color:white;
     margin-top:80px;
 }
@@ -156,8 +156,9 @@ background-size:100% 100%;
 .arrival{
     background-color:white;
     height:100%;
-    width:100%;
-    padding:70px 80px;
+    width:70%;
+    padding-left:30px;
+    padding-bottom:40px;
     align-items: center;
     font-weight: 200;
     font-size:50px;
@@ -175,14 +176,17 @@ background-size:100% 100%;
     margin: 0px auto;
 }
 .images{
+    height:800px;
+    background-color: red;
     display:flex;
+    padding:0px 30px;
     
 }
 .pic{
     justify-content: row;
     height:300px;
     width:300px;
-    background-image: url(../resources/laura-chouette-8gW7dBIxQJM-unsplash.jpg);
+    background-image: url(../resources/kk.webp);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -190,7 +194,7 @@ background-size: cover;
     justify-content: row;
     height:300px;
     width:300px;
-background-image:url(../resources/yash-parashar-VfozQD-IgdA-unsplash.jpg);
+background-image:url(../resources/ll.webp);
     background-repeat: no-repeat;
 background-size: cover;
 }
@@ -202,4 +206,56 @@ background-size: cover;
 background-image:url(../resources/tadeusz-lakota-Tb38UzCvKCY-unsplash.jpg) ;
     background-repeat: no-repeat;
 background-size: cover;
+}
+.page{
+    height:800px;
+    width:100%;
+background-color:white;
+display:flex;
+justify-content:row ;
+padding:50px;
+gap:35px;
+}
+.a{
+    height:800px;
+    width:40%;
+    background-color:white;
+    background-image:url(../resources/firstimage.png);
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+.b{
+    height:800px;
+    width:35%;
+    background-color:white;   
+    background-image:url(../resources/pngwing.com.png) ;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.c{
+    /* height:800px; */
+    width:500px;
+    background-color:white;
+    justify-content:cover;
+    display:flex;
+    flex-direction: column;
+gap:35px;
+    
+}
+.d{
+height:400px;
+width:100%;
+background-color:white;
+background-image:url(../resources/pngwing.com\(4\).png) ;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.e{
+    height:400px;
+    width:100%;
+    background-color:white;
+    background-image:url(../resources/pngwing.com\(2\).png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
