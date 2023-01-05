@@ -48,9 +48,6 @@ a{
 .firstpage{
     height:700px;
     width:100%;
-    /* background-color: blue; */
-    /* background-image:url(../photos/pngwing.com\(14\).png) ; 
-     */
      background-image:url(../photos/firstimage.jpg) ;
      background-size:cover ;
     display:flex;
@@ -58,7 +55,6 @@ a{
     align-items: center;
     gap:100px;
     
-    /* position:absolute; */
 }
 .book{
     margin-top:200px;
@@ -70,7 +66,7 @@ a{
  flex-direction:column;
  align-items: center;
  color:white;
-/* background-color: blue; */
+
  justify-content: center;
 }
 .table{
@@ -79,8 +75,8 @@ a{
  background-color:#FFB400;
  justify-content: center;
  align-items: center;
-margin-left:20px ;
-padding-left:10px ;
+margin-left:0px ;
+padding-left:0px ;
 }
 .bb{
     height:50px;
@@ -88,7 +84,7 @@ padding-left:10px ;
     display:flex;
     flex-direction: row;
     margin-top:50px;
-    /* background-color: white; */
+    
     justify-content: baseline;
      gap:20px; 
 
@@ -114,18 +110,42 @@ background-color: #FFB400;
     border:1px solid black;
     font-size:15px;   
 }
-.secondpage{
 
-    height:700px;
+.b1{
+     height:50px; 
+     width:400px;
+    /* background-color: #FFB400; */
+    flex-direction: column;
+    padding-top:100px;
+    color:gray;
+    font-size:17px;
+}
+.b2{
+    width:400px;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: violet; */
+}
+.b3{
+    height:400px;
+    width:400px;
+    background-color: #fff;
+    color:gray;
+}
+    .secondpage{
+
+    height:500px;
     width:100%;
-    background-color:black; 
+    background-color:white; 
     display:flex;
     flex-direction:row;
     justify-content: center;
-}
+    gap:80px;
+    }
 .A{
     height:600px;
-    width:50%;
+    width:400px;
+    /* padding-left:100px ; */
     background-image:url(../photos/secondimage.jpg) ;
     background-repeat: no-repeat;
     background-size: contain;
@@ -135,30 +155,40 @@ background-color: #FFB400;
 }
 .B{
     height:600px;
-    width:50%;
+    width:700px;
     /* flex-direction: row; */
     display: flex;
-    float: right;
-   /* width: 50%; */
-   
+    flex-direction: column;
+    /* float: right; */
+   /* width: 50% */
 }
 .midsection{
-    height:100px;
-    width:100%;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content:center ;
-}
-.tt{
-    color:grey;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    /* font-weight:; */
+height:200px;
+width:100%;
+/* background-color: aqua; */
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
 }
 .subtt .o,.tt .o{
-/* padding:0px; */
-margin:0px;
+    /* padding:0px; */
+    margin:0px;
+    }
+
+.missing{
+    height:150px;
+    width:100%;
+box-shadow:2px 2px 8px gray; 
 }
+
+
+.choices .c{
+    width:100px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    /* font-weight:; */
+}
+
 .choices{
     height:150px;
     width:100%;
@@ -167,12 +197,767 @@ margin:0px;
     justify-content: center;
     align-items: center;
     gap:10px;
-}
-.choices .c{
-    width:110px;
-    height:70px;
+    height:90px;
     border:0px solid white;
     box-shadow:2px 2px 2px rgb(218, 205, 205) ;
     font-size:14px;
     color:gray;
+
 }
+
+.grid{
+    width:100%;
+    height:700px;
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:20px; 
+    /* background-color:red; */
+    /* display:flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.dish{
+    width:100%;
+    height:120px;
+    /* background-color:yellow; */
+    display:flex;
+    flex-direction: row;
+    font-size:18px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    box-shadow:2px 2px 2px gray ;
+    
+    gap:40px;
+}
+.img{
+    height:100px;
+    width:100px;
+    background-image:url(../photos/khana.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.line{
+    
+    height:100px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.bttn{
+height:40px;
+width:40px;
+align-items: center;
+color:#FFB400;
+}
+.bttn .reservation{
+    height:55px;
+    width:140px;
+    color:#FFB400;
+    align-items: center;
+    border:2px solid #FFB400;
+}
+.thirdpage{
+    height:800px;
+    /* width:100%; */
+    /* background-image:url(../photos/khana.jpg) ; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bgimage{
+height:600px;
+width:100%;
+background-image:url(../photos/background.webp) ;
+background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    top:20%;
+
+
+}
+.grid2{
+    height:400px;
+    width:80%;
+    display:grid;
+    grid-template-columns:auto auto;
+     /* background-color:red; */
+    position:absolute;
+    gap:0px;
+    margin-left:100px;
+}
+.box{
+    height:200px;
+    width:500px;
+    display:flex;
+    flex-direction:row;
+    color:rgb(34, 27, 27);
+    /* background-color: yellow; */
+}
+.content{
+
+}
+.photo{
+    height:200px;
+    width:1000px;
+    background-color: #fff;
+    background-image:url(../photos/foodd.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(max-width:7680px){
+    .up{
+        
+        padding:15px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        gap:30px;
+        width:100%;
+    }
+    .left{
+    margin-left:0px ;
+    height: 45px;
+    width: 45px;
+    }
+    .right{
+        height:45px;
+        width:fit-content;
+        display:flex;
+        align-items: center;
+      gap:15px;
+       
+    }
+    a{
+        font-size: 20px;
+        padding-top: 0px;
+       
+    }
+    .firstpage{
+        height:800px;
+        width:100%;
+        /* background-color: blue; */
+        /* background-image:url(../photos/pngwing.com\(14\).png) ; 
+         */
+         background-image:url(../photos/firstimage.jpg) ;
+         background-size:cover ;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:200px;
+        padding-top:40px;
+        padding-bottom:90px;
+        /* position:absolute; */
+    }
+    
+    .table{
+     height:700px;
+     width:100%;
+     background-color:#FFB400;
+     display:flex;
+     flex-direction:column;
+     justify-content: center;
+    margin-left:0px ;
+    padding-left:0px ;
+    }
+    .bb{
+        
+        height:fit-content;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        margin-top:0px;
+        background-color:#FFB400; 
+        
+        align-items: center;
+         gap:5px; 
+    
+    }
+    button{
+        height:90px;
+        width:250px;
+        gap:0px;
+        background-color:white;
+        border:1px solid gray;
+    }
+    input,select{
+    background-color: #FFB400;
+   
+    
+    }
+    input{
+        height:40px;
+        width:150px;
+        
+    }
+    .bb input{
+        height:20px;
+        width:500px;
+        padding: 0px;
+        border:1px solid black;
+        font-size:10px;
+        background-color:#FFB400;
+    }
+    .bb select{
+        /* padding: 20px; */
+        height:60px;
+        width:550px;
+        border:1px solid black;
+        font-size:10px;   
+    }
+  .book{
+    height:200px;
+    width:300px;
+    padding:20px;
+    /* background-color: red; */
+    font-size:18px ;
+ }
+ .bookatable{
+    height:50PX;
+    font-size: 20px;
+
+ }
+ .secondpage{
+
+    height:800px;
+    width:100%;
+    background-color:white; 
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    gap:0px;
+    
+    /* background-color: aquamarine; */
+}
+.A{
+    
+    height:500px;
+    width:100%;
+    background-size: cover;
+    justify-content:center ;
+    align-items: center;
+    margin-top:0px;
+}
+.B{
+    height:400px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:0px ;
+}
+.b1{
+    height:60px;
+    width:100%;
+    font-size:19px ;
+}
+.b2{
+    height:60px;
+    width:100%;
+    font-size:22px ;
+}
+.b3{
+    height:50px;
+    width:100%;
+    font-size:18px ;   
+}
+
+.midsection{
+    height:200px;
+    width:100%;
+    display:flex;
+    /* background-color: tan; */
+    }
+ 
+    .o{
+        margin: 0px;
+        padding:0px;
+        /* background-color:red; */
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tt h4{
+        height:fit-content;
+        width:100%;
+font-size:14px;
+margin:opx;
+padding:opx ;
+    }
+    .subtt h1{
+        margin:0px;
+        padding:0px;
+        height:30px;
+        width:100%;
+font-size: 19px;
+    }
+
+
+    .missing{
+        height:180px;
+        width:100%;
+         /* background-color:red ;  */
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .choices .c{
+        width:250px;
+        height:90px;
+      font-size:20px;
+      text-transform:capitalize;
+      color:gray;
+      border-radius: 1px;
+
+    }
+    
+    .choices{
+        display:flex;
+        flex-direction:row;
+        /* background-color: #FFB400; */
+       box-shadow:1px 1px 1px gray ;
+    }
+    
+    .grid{
+        width:100%;
+        height:1500px;
+        grid-template-columns:auto ;
+        gap:10px; 
+    }
+    .dish{
+        font-size:20px ;
+        gap:80px;
+    }
+    .img{
+        height:100px;
+        width:100px;
+    }
+.line{
+    height:200px;
+    width:100%;
+    /* background-color: red; */
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+    /* .bttn{
+
+    width:20px;
+    margin-right:100px;
+    
+    
+    } */
+    .tt{
+        height:30px;
+        width:400px;
+        font-size: 20px;
+    }
+    .bttn .reservation{
+        height:50px;
+        width:250px;
+        font-size:20px ;
+        color:#FFB400;
+        
+        /* align-items: center; */
+        border:2px solid #FFB400;
+    }
+    
+    .thirdpage{
+        height:800px;
+        /* width:100%; */
+        /* background-image:url(../photos/khana.jpg) ; */
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .bgimage{
+    height:400px;
+    width:100%;
+    background-image:url(../photos/background.webp) ;
+    background-repeat: no-repeat;
+        background-size: cover;
+    
+    /* position:relative; */
+    
+    }
+    .grid2{
+        height:fit-content;
+        width:90%;
+        display:grid;
+        grid-template-columns:auto;
+         /* background-color:red;  */
+        display:flex;
+        flex-direction: column;
+         /* justify-content: center;  */
+         /* align-items: center;  */
+    
+        /* justify-items: center; */
+        gap:0px;
+        margin-left:40px; 
+    }
+    .box{
+        height:400px;
+        width:100%;
+        display:flex;
+        flex-direction:row-reverse;
+        padding:0px;
+         box-shadow:2px 2px 2px gray;
+        /* background-color:blue; */
+         /* background-color: yellow;  */
+    }
+    .boxs{
+        height:400px;
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        padding:0px;
+        box-shadow:2px 2px 2px gray; 
+        /* background-color:blue; */
+         /* background-color: yellow;  */
+    }
+    .boxi{
+        height:400px;
+        width:100%;
+        display:flex;
+        flex-direction:row-reverse;
+        padding:0px;
+        box-shadow:2px 2px 2px gray; 
+        /* background-color:blue; */
+         /* background-color: yellow;  */
+    }
+    .boxc{
+        height:400px;
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        padding:0px;
+         box-shadow:2px 2px 2px gray; 
+        /* background-color:blue; */
+         /* background-color: yellow;  */
+    }
+    
+    .content{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    width:50%;
+    font-size:20px ;
+    color:rgb(22, 18, 18);
+    padding:10px;
+    }
+    .photo{
+        height:400px;
+        width:50%;
+        background-color: #fff;
+        background-image:url(../photos/khana.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+ .fourthpage{
+    display:none;
+ }
+}
+
+@media(max-width:480px){
+    .up{
+        
+        padding:5px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+    }
+    .left{
+    margin-left:0px ;
+    height: 30px;
+    width: 30px;
+    }
+    .right{
+        height:30px;
+        width:fit-content;
+        display:flex;
+        align-items: center;
+      gap:5px;
+       
+    }
+    a{
+        font-size: 11px;
+        padding-top: 0px;
+       
+    }
+    .firstpage{
+        height:700px;
+        width:100%;
+        /* background-color: blue; */
+        /* background-image:url(../photos/pngwing.com\(14\).png) ; 
+         */
+         background-image:url(../photos/firstimage.jpg) ;
+         background-size:cover ;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:100px;
+        
+        /* position:absolute; */
+    }
+    
+    .table{
+     height:800px;
+     width:100%;
+     background-color:#FFB400;
+     display:flex;
+     flex-direction:column;
+     justify-content: center;
+    margin-left:0px ;
+    padding-left:30px ;
+    }
+    .bb{
+        
+        height:fit-content;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        margin-top:0px;
+        /* background-color: white; */
+        /* justify-content: center; */
+        align-items: center;
+         gap:5px; 
+    
+    }
+    button{
+        height:30px;
+        width:250px;
+        gap:0px;
+        background-color:white;
+        border:1px solid gray;
+    }
+    input,select{
+    background-color: #FFB400;
+    
+    }
+    input{
+        height:10px;
+        width:100px;
+        
+    }
+    .bb input{
+        height:0px;
+        width:250px;
+        padding: 0px;
+        border:1px solid black;
+        font-size:10px;
+        background-color:#FFB400;
+    }
+    .bb select{
+        /* padding: 20px; */
+        height:40px;
+        width:300px;
+        border:1px solid black;
+        font-size:10px;   
+    }
+ .bookatable{
+    height:30px;
+    width:150px;
+ }
+ .bookatable{
+    font-size: 10px;
+ }
+ .secondpage{
+
+    height:800px;
+    width:100%;
+    background-color:white; 
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    gap:0px;
+    
+    /* background-color: aquamarine; */
+}
+.A{
+    
+    height:400px;
+    width:100%;
+    background-size: cover;
+    justify-content:center ;
+    align-items: center;
+    margin-top:0px;
+}
+.B{
+    height:400px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    margin-top:0px ;
+}
+.b1{
+    height:50px;
+    width:100px;
+}
+.b2{
+    height:50px;
+    width:450px;
+    font-size:20px ;
+}
+.b3{
+    height:50px;
+    width:450px;
+    font-size:12px ;   
+}
+
+.midsection{
+    height:40px;
+    width:100%;
+    }
+ 
+    .o{
+        margin: 0px;
+        padding:0px;
+    }
+    .tt h4{
+        height:fit-content;
+        width:100%;
+font-size:8px;
+margin:opx;
+padding:opx ;
+    }
+    .subtt h1{
+        margin:0px;
+        padding:0px;
+        height:30px;
+        width:100%;
+font-size: 10px;
+    }
+
+
+    .missing{
+        height:100px;
+        width:100%;
+        /* background-color:red ; */
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    
+    }
+    .choices .c{
+        width:150px;
+        height:40px;
+      font-size:12px;
+
+    }
+    
+    .choices{
+        display:flex;
+        flex-direction:column;
+       box-shadow:1px 1px 1px white ;
+    }
+    
+    .grid{
+        width:100%;
+        height:700px;
+        grid-template-columns:auto ;
+        gap:10px; 
+    }
+    .dish{
+        font-size:12px ;
+        gap:80px;
+    }
+    .img{
+        height:60px;
+        width:60px;
+    }
+    .line{
+        margin-top:0px;
+        height:500px;
+        width:100%;
+        display:none;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap:0px;
+        font-size:14px;
+        color:rgb(34, 31, 31);
+        gap:10px;
+        
+    }
+    .bttn{
+    height:900px;
+    width:20px;
+    margin-right:100px;
+    
+    
+    }
+    .bttn .reservation{
+        height:30px;
+        width:150px;
+        font-size:12px ;
+        color:#FFB400;
+        
+        align-items: center;
+        border:2px solid #FFB400;
+    }
+    
+    .thirdpage{
+        height:800px;
+        /* width:100%; */
+        /* background-image:url(../photos/khana.jpg) ; */
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .bgimage{
+    height:400px;
+    width:100%;
+    background-image:url(../photos/background.webp) ;
+    background-repeat: no-repeat;
+        background-size: cover;
+    
+    /* position:relative; */
+    
+    }
+    .grid2{
+        height:800px;
+        width:100%;
+        display:grid;
+        grid-template-columns:auto;
+        /* background-color:red; */
+        display:flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    
+        
+        gap:0px;
+        margin-left:0px;
+    }
+    .box{
+        height:200px;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        padding:0px;
+        /* box-shadow:2px 2px 2px gray; */
+        /* background-color:blue; */
+         background-color: yellow; 
+    }
+    .content{
+    font-size:14px ;
+    }
+    .photo{
+        height:100px;
+        width:100px;
+        background-color: #fff;
+        background-image:url(../photos/foodd.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+ .fourthpage{
+    display:none;
+ }
+}
+
